@@ -1,0 +1,105 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,700&family=Montserrat:wght@400;500;600&display=swap);
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css (1) ***!
+  \*************************************************************************/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(132, 146, 141);
+    color: #fff;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+header p {
+    color: #fff;
+    font-size:18px;
+    white-space: nowrap;
+}
+
+header input {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px;
+    width: 350px;
+    margin: 0px 15px;
+}
+
+header button {
+    display: flex;
+    width: min-content;
+    background-color: #292828;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+#card {
+    /* display: grid; */
+    margin-top: 30px;
+   background-color: #fff;
+   color: #000;
+   width: fit-content;
+   padding: 10px;
+   border-radius: 15px;
+   justify-self: center;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-section {
+    /* background-color: red; */
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#todo-items {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#todo-items p, 
+#todo-items input{
+    padding: 0px 25px 0px 10px;
+}
+
+
+@media (max-width:626px) {
+    header input {
+        width: 250px;
+    }
+}
+
+
+
